@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Hangman</title>
+    <!-- Linking Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Linking jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- Linking CSS Reset-->
+    <!--<link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header"></div>
+    </header>
+    <main class="container">
+    </div>
+        <table class="game-content">
+            <thead>
+                <tr>
+                    <th colspan="2"><span class="hangTitle">Guess the Football Players </span>
+                        <img id="youwin-image" src="" alt="Winning Image" />
+                        <img id="gameover-image" src="" alt="Game Over Image" />
+                        <h1 id="pressKeyTryAgain">Press Any Key to Try Again!</h1>
+                    </th>
+                </tr>
+            </thead>  
+            <tbody>
+                <tr>
+                    <td class="clue"></td>
+                    <td><h3 style="padding-bottom:5px;"><u>Press any Key start!</u></h3>
+                        <h4>Wins:</h4>  <div id="gameWins"></div>
+                        <h4>Current Word:</h4> <div id="currentWord"></div>
+                        <h4>Losses:</h4>  <div id="gameLosses"></div>
+                        <h4 style="padding-top:10px;">Guesses Left:</h4>  <div id="guessesLeft"></div>
+                        <h4>All Guesses:</h4>  <div id="userGuesses"></div>
+                    </td>
+                </tr>
+            </tbody>      
+        </table>
+    </main>    
+    <footer class="footer">
+            <div class="container">
+            </div>
+    </footer>   
+    <!-- Linking JS -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>    
+    <script>
+        startGame();
+        refreshScreen();
+    </script>
+</body>
+
+</html>
