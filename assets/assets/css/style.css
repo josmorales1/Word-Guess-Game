@@ -1,0 +1,43 @@
+body {
+    background: url("https://cdn.vox-cdn.com/thumbor/sK9iVddG2P9v_iF27xfsHz30LBg=/0x0:5089x3393/1200x800/filters:focal(2138x1290:2952x2104)/cdn.vox-cdn.com/uploads/chorus_image/image/63762068/GettyImages_1141554602.0.jpg ");
+    width: aboslute;
+}
+
+
+
+.game-content {
+    text-align: center;
+    font-size: 2em;
+    width: 100%;
+    min-height: 500px;
+}
+
+#gameover-image, #youwin-image {
+    margin:auto;
+}
+
+.game-content th, .game-content td {
+    border: 5px outset blue;
+    width: 1%;
+}
+
+main {
+    background-color:white;
+    border-radius:10px;
+    padding: 20px;
+    max-width:70% !important;
+    min-height:500px;
+    margin-bottom:5%;
+}
+
+.hangTitle {
+    font-size:2em;
+}
+
+
+
+
+#currentWord {
+    letter-spacing: 10px;
+    font-size: 1.5em;
+}
